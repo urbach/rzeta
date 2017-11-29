@@ -1,0 +1,2 @@
+export(QZeta, DZeta)
+useDynLib(rzeta)

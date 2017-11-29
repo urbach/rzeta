@@ -1,0 +1,16 @@
+Package: rzeta
+Version: 1.0
+Date: 2017-11-30
+Title: Luescher Zeta Function
+Authors@R: c(person("Marcus", "Petschlies", email = "marcus.petschlies@hiskp.uni-bonn.de",
+                  role = c("aut", "cre")))
+Author: Marcus Petschlies [aut, cre]
+Maintainer: Marcus Petschlies <marcus.petschlies@hiskp.uni-bonn.de>
+SystemRequirements: Gnu Scientific Library version 1.8 or 1.9, libquadmath in case QZeta is installed
+Description: Luescher Zeta Function
+Depends: 
+Suggests: 
+License: GPL
+URL: https://github.com/urbach/rzeta
+BugReports: https://github.com/urbach/rzeta/issues
+LazyData: true
