@@ -33,3 +33,9 @@ vignettes/*.pdf
 *.knit.md
 
 configure
+
+autom4te.cache
+config.log
+config.status
+src/*.o
+src/*.so
