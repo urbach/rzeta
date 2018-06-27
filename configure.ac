@@ -34,11 +34,13 @@ else
   AC_MSG_RESULT([yes])
 fi
 
-AC_SEARCH_LIBS([expq],
-               [quadmath],
-               [],
-               [AC_MSG_ERROR([unable to find the quadmath libary!])]
-               )
+if test -z "${QUADMATH_LIB_DIR}"; then
+  AC_SEARCH_LIBS([expq],
+                 [quadmath],
+                 [],
+                 [AC_MSG_ERROR([unable to find the quadmath libary!])]
+                 )
+fi
 
 gsl_custom_lib=""
 gsl_custom_include=""
